@@ -12,12 +12,12 @@
 
 ## [サーバのアップグレード手順(公式)](https://www.zabbix.com/documentation/current/en/manual/installation/upgrade/sources)
 
-1. [サーバを停止する。](./service-stop.md)
+1. [サーバを停止する。](./server-stop.md)
 1. 既存の [zabbixデータベース](./backenddb.md)の[バックアップ](./dbbackup.md)
 1. [設定ファイル](./config.md)、[PHPファイル](./phpscript.md)、[Zabbixバイナリのバックアップ](./zabbix-files-backup.md)
 1. 新しいサーババイナリを[インストール](./pkg-or-ports-install.md)
 1. サーバ[構成パラメータを確認](./parameter-check.md)する。
-1. 新しいZabbixバイナリの[起動](./service-up.md)
+1. 新しいZabbixバイナリの[起動](./server-up.md)
 
 ## データベース Update　に関する諸項目
 
