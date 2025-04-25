@@ -1,4 +1,4 @@
-# Zabbix Server の停止手順
+# Zabbix Server 起動手順
 
 ## service コマンドの実行
 
@@ -10,9 +10,6 @@
 
 ```bash
 # service zabbix_server status
-zabbix_server is running as pid 32826.
-# service zabbix_server stop
-# service zabbix_server status
 zabbix_server is not running.
 ```
 
@@ -23,7 +20,14 @@ zabbix_server is not running.
 61767  6  S+J  0:00.00 grep zabbix_server
 ```
 
-* 停止できていない場合は以下の通り：
+* 起動状態にする：
+
+```sh
+# service zabbix_server start 
+
+```
+
+* 起動状態を確認する
 
 ```bash
 # service zabbix_server status
@@ -84,4 +88,3 @@ zabbix_server is running as pid 62591.
 #
 
 ```
-
