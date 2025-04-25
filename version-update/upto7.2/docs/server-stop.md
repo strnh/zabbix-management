@@ -4,7 +4,7 @@
 
 >[!CAUTION]
 > [FreeBSD](https://www.freebsd.org) での事例を記述しています。
-> 
+>
 
 * root 権限にて以下コマンド実行
 
