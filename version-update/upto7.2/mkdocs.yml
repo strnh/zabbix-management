@@ -1,0 +1,34 @@
+site_name: Zabbix Update 
+
+theme:
+  name: material
+  features:
+     - navigation.instant
+  icon:
+    annotation: material/arrow-right-circle 
+
+
+plugins:
+  - search
+  - with-pdf: 
+      author: Sotaro Hikosaka
+      copyright: D-Kujira
+      cover_title: Zabbix update procedure
+      cover_subtitle: strnh@github.com
+
+markdown_extensions:
+  - footnotes:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - https://unpkg.com/mermaid@11.6.0/dist/mermaid.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11.6.0/dist/mermaid.min.js
+
